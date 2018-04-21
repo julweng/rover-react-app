@@ -1,0 +1,90 @@
+nav {
+  height: 3rem;
+  width: 100%;
+  font-family: Avenir, Helvetica Neue, Segoe UI, Roboto,sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  height: 3rem;
+}
+
+nav li a img {
+  height: 2.5rem;
+  width: 7.5rem;
+  padding: 0;
+  margin: .5rem;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: #777;
+}
+
+#portrait {
+  padding: 0 6.5rem 0 0;
+}
+
+nav li {
+  height: 3rem;
+  list-style: none;
+  display: inline-block;
+  padding: .7rem;
+  line-height: 1.8;
+}
+
+nav li a span {
+  padding-right: .4rem;
+}
+
+.left-links {
+  text-align: left;
+}
+
+.right-links {
+  text-align: right;
+}
+
+button {
+  color: rgba(0,189,112,1);
+  border: 1px solid #ddd;
+  padding: .5rem;
+  border-radius: 2px;
+}
+
+.sm-screen, .drop-menu {
+  display: none;
+}
+.sm-screen {
+  text-align: right;
+}
+
+.drop-menu > div {
+
+
+  background-color: #fff;
+  z-index: 10;
+}
+
+@media only screen and (max-width: 767px) {
+  .sm-screen, .drop-menu {
+    display: inline-block;
+  }
+
+  .sm-screen {
+    padding-left: 75%;
+  }
+
+  .big-screen {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .sm-screen {
+    padding-left: 35%;
+  }
+}

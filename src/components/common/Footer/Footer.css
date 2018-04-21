@@ -1,0 +1,17 @@
+div.footer {
+  background: #fff;
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+}
+
+
+
+div.footer ul li {
+  font-size: 36px;
+  display: inline-block;
+  list-style: none;
+  padding: 2% 4% 0 2%
+}
+

@@ -1,0 +1,59 @@
+div#hero {
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),url('https://www.rover.com/static/dist/5bda549134d6b5dd94f560fb1bd0f442.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 22rem;
+  margin-top: 1rem;
+}
+
+div#hero > div > div {
+  margin: 5rem 0;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 350;
+  font-size: 40px;
+  line-height: 1.4;
+}
+
+div#learn-more {
+  text-align: center;
+}
+
+div#learn-more a {
+  background: rgba(0,189,112,1);
+  border-color: rgba(0,189,112,1);
+  color: rgba(255,255,255,1);
+  width: 4.5rem;
+  height: 1.5rem;
+  padding: .7rem 1.2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0,189,112,1);
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: lighter;
+  text-align: center;
+}
+
+div#learn-more a:hover {
+  background: rgb(8, 245, 150);
+  border-color: rgb(8, 245, 150);
+}
+
+
+@media only screen and(max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+  
+  div#hero {
+    margin-top: 9rem;
+  }
+}

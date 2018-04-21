@@ -1,0 +1,29 @@
+div.learn-more-container {
+  margin: 2% 0;
+}
+
+div.learn-more {
+  padding: 2%;
+}
+
+div.learn-more:first-child {
+  background: #ddd;
+}
+
+div.learn-more:nth-child(2) {
+  background: #eee;
+}
+
+div.learn-more h4 {
+  text-align: center;
+}
+
+div.learn-more ul {
+  text-align: left;
+  padding: 1% 25%;
+}
+
+div.learn-more ul li {
+  list-style: none;
+  line-height: 1.8;
+}

@@ -1,0 +1,36 @@
+.cards {
+  width: 100%;
+}
+
+.card {
+  height: 19rem;
+  margin: 1rem 0;
+} 
+
+.card > div {
+  height: 19rem;
+  border: 1px solid #eee;
+  padding: 0.6%;
+  border-radius: 4px;
+}
+
+.card > div div:first-child {
+  width: 4rem;
+  height: 1rem;
+  border-bottom: 2px solid rgba(0,189,112,1);
+  margin-left: 0.8rem;
+}
+
+.card h3 {
+  color: #555;
+  padding: .5rem;  
+}
+
+.card p {
+  text-align: left;
+  color: #777;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0;
+  padding: .5rem;
+}
