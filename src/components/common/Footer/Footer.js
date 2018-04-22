@@ -6,6 +6,14 @@ class Footer extends Component {
   state = {
     links: [
       {
+        icon: <FontAwesomeIcon icon={["fab", "github"]}/>,
+        address: 'https://github.com/julweng',
+      },
+      {
+        icon: <FontAwesomeIcon icon={["fab", "linkedin"]}/>,
+        address: 'https://www.linkedin.com/in/jultzweng/',
+      },
+      {
         icon: <FontAwesomeIcon icon="briefcase" />,
         address: 'https://julweng.github.io/portfolio',
       }
