@@ -17,7 +17,7 @@ class LearnMore extends Component {
       `love dogs; love cats, too`,
       `mature, flexible, considerate, open-minded`,
       `fierce learner!`,
-      `I often come up with funny ideas like this refactored website`,
+      `I often come up with funny ideas`,
       `I have french bulldog pillows, use french bulldog emojis, and have a french bulldog t-shirt; 
       check out my portfolio page.`,
     ],
