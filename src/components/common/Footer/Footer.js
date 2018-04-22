@@ -7,11 +7,11 @@ class Footer extends Component {
     links: [
       {
         icon: <FontAwesomeIcon icon={["fab", "github"]}/>,
-        address: 'github.com/julweng',
+        address: 'https://github.com/julweng',
       },
       {
         icon: <FontAwesomeIcon icon={["fab", "linkedin"]}/>,
-        address: 'linkedin.com/in/jultzweng',
+        address: 'https://linkedin.com/in/jultzweng',
       },
       {
         icon: <FontAwesomeIcon icon="briefcase" />,
